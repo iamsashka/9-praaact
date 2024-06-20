@@ -11,6 +11,16 @@
     android:paddingRight="15dp"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Николаева А.Н."
+        app:layout_constraintBottom_toTopOf="@+id/camera_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/camera_button"
         android:layout_width="165dp"
